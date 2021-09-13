@@ -14,7 +14,7 @@
         <h1>Discover Mars!</h1>
         <form id="header">
             <label for="camera-name"></label>
-            <input type="text" placeholder="FHAZ" id="camera-name" required>
+            <input type="text" placeholder="i.e. FHAZ" id="camera-name" required>
             <input type="submit" value="Go!" id="submit-button">
         </form>
         <h2 id="title">Search Mars Images By Camera Name's Abbreviation</h2>
@@ -53,10 +53,12 @@
                 <th>NAVCAM</th>
             </tr>
         </table>
+        <br />
+        <br />
 
         <div>
             <section id="results" class="hidden">
-                <h2>Here You Go! </h2>
+                <h2 id="search-result"></h2>
                 <div id="results-list"></div>
             </section>
         </div>

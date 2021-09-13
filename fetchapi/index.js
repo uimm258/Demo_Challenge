@@ -8,16 +8,16 @@ const getMars = () => {
     .then(responseJson => {
         let response = responseJson.photos;
         displayResults(response)
-        console.log(response)
     })
     .catch(error => console.log(error));
 }
 
 function displayResults(response) {
-    //console.log(response)
     $("#results-list").empty();
 
     let results = "";
+    let searchResult = $("#camera-name").val();
+    console.log(searchResult)
   
     response.forEach((result) => {
             results +=
@@ -29,6 +29,7 @@ function displayResults(response) {
     });
 
     $("#results").removeClass("hidden");
+    $("#search-result").html(searchResult);
     $("#results-list").html(results);
     $("#title").removeClass("visible").addClass("hidden");
 };

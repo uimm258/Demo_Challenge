@@ -47,3 +47,13 @@
    background-color: lightyellow;
    font-style: italic;
 }
+
+/* First Post */
+.postid-1 .entry-header {
+   color: white;
+}
+
+/* Third Post */
+.postid-156 .entry-header {
+   color: white;
+}
