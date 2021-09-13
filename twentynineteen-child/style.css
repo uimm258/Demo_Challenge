@@ -1,0 +1,49 @@
+/*
+ Theme Name:   Twenty Nineteen Child
+ Description:  Twenty nineteen Child Theme
+ Author:       Maymay :) & the Wordpress Team
+ Author URI:   https://wordpress.org/
+ Template:     twentynineteen
+ Version:      2.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready, block-patterns
+ Text Domain:  twentynineteenchild
+*/
+
+/* Homepage CSS */
+#post-156, #post-1{
+    background-color: black;
+}
+
+#post-156 h2.entry-title, #post-1 h2.entry-title {
+   color: white;
+     font-style: underline;
+}
+
+#post-156 .entry-content p, #post-1 .entry-content p {
+   color: white;
+}
+
+#post-156 .entry-footer, #post-1 .entry-footer {
+   color: white;
+}
+
+#post-154 .entry-footer {
+   color: black;
+}
+
+.post-thumbnail a {
+   visibility: hidden;
+}
+
+/* Second Post */
+.postid-154 {
+   background-color: lightblue;
+}
+
+/* Page1 */
+.page-id-146 {
+   background-color: lightyellow;
+   font-style: italic;
+}
